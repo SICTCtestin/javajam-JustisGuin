@@ -48,6 +48,7 @@ header{
     background-image: url(images/coffeelogo.jpg);
     padding-top: 5px;
     padding-bottom: 5px;
+    
 
 
 
@@ -81,16 +82,16 @@ h4{
     padding-bottom: .25em;
     padding-left: 3em;
     padding-right: 2em;
+    text-transform: uppercase;
+    border-bottom: #221811;
+    padding-bottom: 0;
+    clear: none;
+
 
 
 
 }
-.floatleft{
-    float: left;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    
-}
+
 p{
     padding-left: 3em;
     padding-right: 2em;
@@ -110,6 +111,60 @@ dl{
     padding-right: 2em;
 }
 
+main h2{
+    color: #8c3826;
+    padding-left: 3em;
+    padding-right: 2em;
+   
+    
+}
+main h3{
+    color: #8c3826;
+    padding-left: 3em;
+    padding-right: 2em;
+
+
+}
+main dt{
+    color: #8c3826;
+}
+main h4{
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+    padding-left: 3em;
+    padding-right: 2em;
+
+
+
+}
+
+main p{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+main div{
+    padding-left: 3em;
+    padding-right: 2em;
+
+}
+main ul{
+    padding-left: 3em;
+    padding-right: 2em;
+
+}
+main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+#floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    
+}
+
 nav{
     text-align: center;
     font-weight: bold;
@@ -118,12 +173,21 @@ nav{
     padding-bottom: 5em;
     float: left;
     width: 200px;
+    
 
 
 }
 
 nav a {text-decoration: none;}
 
+nav ul{
+    list-style-type: none;
+    padding-left: 0;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+
+
+}
 
 footer{
     background-color: #D2B48C;
@@ -143,6 +207,7 @@ footer{
     padding-top: 0;
     box-shadow: 5px 5px ;
     box-sizing: border-box;
+    padding: 0;
 
 
 
@@ -168,4 +233,11 @@ img{
 .details{
     padding-left: 20%;
     padding-right: 20%;
+    overflow: auto;
+    
+}
+.onethird{
+    float: left;
+    width: 33%;
+
 }
