@@ -166,13 +166,12 @@
 /* medium */
 @media(min-width:600px){
         body{
-        
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        color: #221811; 
-        font-family:Tahoma, Arial, sans-serif;
-        }
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #221811; 
+            font-family:Tahoma, Arial, sans-serif;
+            }
         header{
             background-color: #D2B48C;
             background-image: url("images/cup.jpg");
@@ -213,25 +212,23 @@
         nav{
             text-align: cente;  
             font-size: 1.5em;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            float: left;
-            width: 200px;
+            /* padding-top: 5px; */
+            /* padding-bottom: 5px; */
+            /* float: left; */
+            /* width: 200px; */
         }
         nav a{
-            text-decoration: none;
-        }
+            text-decoration: none;}
         nav a:link {
-            color: #FEF6C2;
-        }
+            color: #FEF6C2;}
         nav a:visited{
-            color: #D2B48C;
-        }
+            color: #D2B48C;}
         nav a:hover{
-            color: #CC9933;
-        }
+            color: #CC9933;}
         nav ul{
+            display:flex;
             flex-wrap: nowrap;
+            flex-direction: row;
             justify-content: space-around;
         }
         nav li{
