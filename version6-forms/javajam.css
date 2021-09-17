@@ -15,9 +15,29 @@ th{
 tr:nth-of-type(odd){
      background: #d2b48e
 }
-@media(min-width:1024px){
+#herojobs{
+    height: 300px;
+    background-image: url("images/coffeecup.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+
+}
+input, textarea{
+    margin-bottom: .5em;
+
+}
+
+
+@media(min-width:1024px){   
     body{
-    background-image: url("javaMedia/fadedroad50.jpg");
+    background-image: url("images/fadedroad50.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -27,6 +47,7 @@ tr:nth-of-type(odd){
     header{
         background-color: #D2B48C;
         background-repeat: no-repeat;
+        background-image: url("images/coffeelogo.jpg");
         color: #231814;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -64,7 +85,7 @@ tr:nth-of-type(odd){
         color: #8C3826;
     }
     nav{
-
+        text-align: center;
         font-weight: bold;
         font-size: 1.5em;
         padding-top: 5px;
@@ -168,26 +189,27 @@ tr:nth-of-type(odd){
         background-size: 100% 100%;
         background-image:url("images/hero.jpg")
     }
-    #homemugs{
+    #heromugs{
         height: 300px;
         background-size: 100% 100%;
         background-image:url("images/heromugs.jpg")
     }
-    #homeguitar{
+    #heroguitar{
         height: 300px;
         background-size: 100% 100%;
         background-image:url("images/heroguitar.jpg")
     }
-    #herojobs{
-        height: 300px;
-        background-image: url("images/coffeecup.jpg");
-        background-repeat: repeat;
-        background-size: 100% 100%;
-    }
+    form{
+        width:60%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 12em 1fr;
+        grid-gap: 1em; gap:1em;
+   }
 }
 
-/* medium */
-@media(min-width:600px){
+/* medium */    
+@media(max-width:1024px){
         body{
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -233,7 +255,7 @@ tr:nth-of-type(odd){
             color: #8C3826;
         }
         nav{
-            text-align: cente;  
+            text-align: center;  
             font-size: 1.5em;
             /* padding-top: 5px; */
             /* padding-bottom: 5px; */
@@ -287,7 +309,7 @@ tr:nth-of-type(odd){
             padding-right: 0;
             padding-bottom: 2em;
             padding-top: 0;
-            margin-left: 200px;
+            /* margin-left: 200px; */
             display: block;
             background-color: #FEF6C2;
             overflow: auto;
@@ -333,13 +355,18 @@ tr:nth-of-type(odd){
         }
         #homehero{
             height: 50vh;
+            background-repeat: no-repeat;
             background-image:url("images/hero.jpg")
         }
-        #homemugs{
+        #heromugs{
+            height: 50vh;
+            background-repeat: no-repeat;
             background-image:url("images/heromugs.jpg")
         }
-        #homeguitar{
-            background-image:url("images/guitar.jpg")
+        #heroguitar{
+            height: 50vh;
+            background-repeat: no-repeat;
+            background-image:url("images/heroguitar.jpg")
         }
         #flow{
             display: flex;
@@ -502,11 +529,11 @@ tr:nth-of-type(odd){
             background-size: 100% 100%;
             background-image:url("images/road.jpg")
         }
-        #homemugs{
+        #heromugs{
             
             background-image:url("images/threemugs.jpg")
         }
-        #homeguitar{
+        #heroguitar{
             background-image:url("images/guitar.jpg")
         }
         #mobile{
